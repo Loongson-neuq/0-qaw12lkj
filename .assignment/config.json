@@ -1,81 +1,16 @@
-{
-  "name": "第 0 次作业",
-  "description": "第 0 次作业的描述，详细查看仓库根目录的 README.md",
-  "type": "OS",
-  "status": "open",
-  "id": "week-0",
-  "version": 1,
-  "config_version": 1,
-  "auto_grade": {
-    "enable": true,
-    "upload_output": true,
-    "steps": [
-      {
-        "title": "Compile",
-        "timeout": 10,
-        "command": "g++ main.cpp -o main && chmod +x main",
-        "score": 0
-      },
-      {
-        "title": "Checkpoint 1",
-        "timeout": 5,
-        "command": "./main 1 2 3",
-        "score": 10
-      },
-      {
-        "title": "Checkpoint 2",
-        "timeout": 5,
-        "command": "./main 3 2 1",
-        "score": 10
-      },
-      {
-        "title": "Checkpoint 3",
-        "timeout": 5,
-        "command": "./main 3 1 2",
-        "score": 10
-      },
-      {
-        "title": "Checkpoint 4",
-        "timeout": 5,
-        "command": "./main 2 3 1",
-        "score": 10
-      },
-      {
-        "title": "Checkpoint 5",
-        "timeout": 5,
-        "command": "./main 2147483647 2147483647 2147483647",
-        "score": 10
-      },
-      {
-        "title": "Checkpoint 6",
-        "timeout": 5,
-        "command": "./main 1200000000 1200000000 -2147483648",
-        "score": 10
-      },
-      {
-        "title": "Checkpoint 7",
-        "timeout": 5,
-        "command": "./main 2147483647 -2147483648 0",
-        "score": 10
-      },
-      {
-        "title": "Checkpoint 8",
-        "timeout": 5,
-        "command": "./main -2147483648 2147483647 0",
-        "score": 10
-      },
-      {
-        "title": "Checkpoint 9",
-        "timeout": 5,
-        "command": "./main -10 -100 -1000",
-        "score": 10
-      },
-      {
-        "title": "Checkpoint 10",
-        "timeout": 5,
-        "command": "./main 0 0 0",
-        "score": 10
-      }
-    ]
-  }
-}
+# ⚠　WARNING ⚠
+## Web action detected!
+## 检测到网页端提交！
+
+The commit was made by a web action, which is not allowed to use in this repository. It has been forced to rollback.
+网页端被禁止使用，该提交已经被强制撤回。
+    
+## Previous file page url:
+## 被撤回前文件的页面链接:
+
+[.assignment/config.json@5e6327e](https://github.com/Loongson-neuq/0-qaw12lkj/blob/ee8a3077ff4ae08915029c13a2ae9f0e88682e37/.assignment%2Fconfig.json)
+
+## Previous file raw url:
+## 被撤回前文件的下载链接:
+
+[.assignment/config.json@5e6327e](https://github.com/Loongson-neuq/0-qaw12lkj/raw/ee8a3077ff4ae08915029c13a2ae9f0e88682e37/.assignment%2Fconfig.json)
